@@ -1,0 +1,47 @@
+body {
+  font-family: Cairo;
+  text-align: right;
+}
+
+.site-content {
+  padding: 20px 0px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+#calculateButton {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#calculateButton:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
